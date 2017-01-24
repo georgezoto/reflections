@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+    
+    A hidden .git directory is created storing metadata about a repository. 
+    This metadata can be acessed using git commands after you start tracking files in your repository.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+    The staging are is a temporary storage area that you can add or remove
+files from your working directory to it with the purpose of enabling tracking
+and other version control operations on them. It's like a new layer on top of
+your existing files in your working directory. Think of it as similar to
+several word documents in a directory when you decide to enable tracking on
+only few of them. This set of files would consist of the staging area in git.
