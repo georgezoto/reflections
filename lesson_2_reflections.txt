@@ -20,3 +20,13 @@ change?
 working directoy and the staging area. If you notice a change that is more
 than just a logical change you may skip git add it or if you already added it
 you can git rm --cached filename to remove it from the staging area. 
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+    When diverging from the main project either with a new feature or a new
+experimental feature or adding support for a new langiage for example it is a
+good idea to create a new seperate branch and work on it independently without
+affecting the main (master) branch. You can name your branches with some
+meaningful names to make it easy to chekout different branches and perform
+commits in them, one branch at a time.
