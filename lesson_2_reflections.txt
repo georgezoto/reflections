@@ -12,3 +12,11 @@ and other version control operations on them. It's like a new layer on top of
 your existing files in your working directory. Think of it as similar to
 several word documents in a directory when you decide to enable tracking on
 only few of them. This set of files would consist of the staging area in git.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    You can use git status and git diff to see the difference between your
+working directoy and the staging area. If you notice a change that is more
+than just a logical change you may skip git add it or if you already added it
+you can git rm --cached filename to remove it from the staging area. 
