@@ -30,3 +30,12 @@ good idea to create a new seperate branch and work on it independently without
 affecting the main (master) branch. You can name your branches with some
 meaningful names to make it easy to chekout different branches and perform
 commits in them, one branch at a time.
+
+How do the diagrams help you visualize the branch structure?
+
+    Branches, using a term from the physical world, are best explained using
+diagrams where you an clearly see the origin of branch or sequence of commits
+in git, where you branch out to develop a new feature and where do you merge
+or continue a seperate path on a new branch. A directed diagram also shows
+unreachable commits and how they relate with other reachable commits and
+branches.
