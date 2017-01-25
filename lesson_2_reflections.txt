@@ -50,3 +50,13 @@ could be partially solved by merging it with the current updated master branch
 but that is not always the case. Since branches have a visual representation,
 using a similar diagram helps the developer visualize the commits leading to a
 merge and all the way back to the origin/init commit.
+
+What are the pros and cons of Git.s automatic merging vs. always doing merges
+manually?
+    
+    Automatic merging can help us with some trivial chores like including a
+brand new module or function in the merged result. This would take some time
+to perform manually. Automatic merging can include some inconsistent code
+though so very careful inspection is needed before any commits. Code execution
+is not just about lines in a file, they have a special meaning that could
+break during an automatic merge.
