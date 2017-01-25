@@ -7,3 +7,10 @@ local?
     Second, I would use it when I would collaborate with other users on a common project.
     This would benefit everyone to work towards a common goal and share your experience and 
     knowledge with other users online.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    So that you can review first what changes are made in a remote, possibly public, repository
+    before you pull them to your local repository. This way you can see if you are up to date with the
+    remote branch and see if its a good idea for you to pull the new commits as part of the remote branch
+    to your local repository.
