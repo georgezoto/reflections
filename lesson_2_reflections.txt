@@ -39,3 +39,14 @@ in git, where you branch out to develop a new feature and where do you merge
 or continue a seperate path on a new branch. A directed diagram also shows
 unreachable commits and how they relate with other reachable commits and
 branches.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    The result would consist of both features developed in both merged
+branches unless the branches were formed several commits earlier. In that case
+one branch will have an outdated version of the master branch. This problem
+could be partially solved by merging it with the current updated master branch
+but that is not always the case. Since branches have a visual representation,
+using a similar diagram helps the developer visualize the commits leading to a
+merge and all the way back to the origin/init commit.
