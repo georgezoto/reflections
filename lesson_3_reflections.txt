@@ -1,0 +1,9 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    I would use a remote repository for two reasons. 
+    One, to have another copy of my project as a backup on another system and location
+    different than my local repository in my computer.
+    Second, I would use it when I would collaborate with other users on a common project.
+    This would benefit everyone to work towards a common goal and share your experience and 
+    knowledge with other users online.
