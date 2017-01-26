@@ -14,3 +14,15 @@ Why might you want to always pull changes manually rather than having Git automa
     before you pull them to your local repository. This way you can see if you are up to date with the
     remote branch and see if its a good idea for you to pull the new commits as part of the remote branch
     to your local repository.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+    Forks can take place only on GitHub where you can copy the exact same
+content of an existing online repository on GitHub to your account on GitHub.
+Cloning can be between a remote (online GitHub repository) and your local
+computer or from one repository on your local computer to another repository
+on your local computer. Finally you can create a new branch and work on a new
+feature only on a local repository. You can decide to merge your changes with
+the master branch before deciding to push this new branch online on GitHub or
+continue working on both local branches seperately.
