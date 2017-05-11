@@ -26,3 +26,13 @@ on your local computer. Finally you can create a new branch and work on a new
 feature only on a local repository. You can decide to merge your changes with
 the master branch before deciding to push this new branch online on GitHub or
 continue working on both local branches seperately.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    In case you have to be offline for a while and need to work on a new
+feature building upon the latest state of the remote repository. You can
+After your new feature is developed locally you can see how much you are
+diverged from the remote repository by doing git fetch. You can then decide to
+merge your local feature with the latest state of the remote and then push the
+changes to the remote.
