@@ -40,7 +40,7 @@ changes to the remote.
 How would you collaborate without using Git or GitHub? What would be easier,
 and what would be harder?
 
-  Without Git or GitHub a team would have to use a shared remote server for
+    Without Git or GitHub a team would have to use a shared remote server for
 development or different local servers for development but a shared remote
 code revision server. Alternatively the entire communication during
 development could happen over emails. Both solutions though would make it very
@@ -48,3 +48,11 @@ hard for a team to work on shared resources and code files and even harder to
 detect what changes were made by whom and for what reason. Git and GitHub
 offer code revision features and remote storage with differential code review
 and feedback/communication among the members of a team or of a startup :)
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+    Perhaps implementing a totally new feature would be a good example of
+using a seperate branch. This way the master branch can keep on being
+developed while we work on this innovative feature. Also as the number of
+developers increases working directly on the master branch can be challenging.
